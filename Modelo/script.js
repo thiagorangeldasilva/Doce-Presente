@@ -1,6 +1,3 @@
-function erro(nome, encomenda, qndbro, qndbis){
-    
-}
 function salvar(){
     var nome = document.getElementById('txtnome')
     var encomenda = document.getElementsByName('radiodoce')
