@@ -1,0 +1,42 @@
+body{
+    background: rgb(224, 133, 164);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+input#txtnome {
+    width:400px;
+}
+input#qntbro {
+    width: 150px;
+}
+input#qntbis {
+    width: 150px;
+}
+div{
+    padding: 5px;
+}
+input#button{
+    background: rgba(224, 133, 163, 0.342);
+    width: 100px;
+    height: 35px;
+    font: normal 15pt Arial;
+}
+div#res{
+    text-align: center;
+}

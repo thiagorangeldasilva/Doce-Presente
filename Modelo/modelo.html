@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Presente - Home</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Doce presente</h1>
+    </header>
+    <section>
+        <div id="nome">
+            Nome: <input type="text" name="txtnome" id="txtnome">
+        </div>
+        <div id='doce'>
+            Encomenda:
+            <input type="radio" name="radiodoce" id="bro"  value="bro"checked>
+            <label for="bro">Brownie</label>
+            <input type="radio" name="radiodoce" id="bis" value="bis">
+            <label for="bis">Biscoito</label>
+            <input type="radio" name="radiodoce" id="amb" value="amb">
+            <label for="amb">Ambos</label>   
+        </div>
+        <div id="qntbrownie">
+            Qnt Brownie: <input type="number" name="qntbro" id="qntbro" min='0'> unidades
+        </div>  
+        <div id="qntbbiscoito">
+            Qnt Biscoito: <input type="number" name="qntbis" id="qntbis" min='0'> unidades
+        </div>
+        <div id='botao'>
+            <input type="button" value="Salvar" id='button' onclick="salvar()">
+        </div>   
+        <div id='res'></div>
+    </section>
+    <footer>
+        <p>&copy; Doce Presente</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
